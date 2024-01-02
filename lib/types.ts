@@ -24,4 +24,9 @@ export type Movie = {
   voteCount: number;
 };
 
-export type SearchResults = {};
+export type SearchResults = {
+  page: number;
+  results: Movie[];
+  total_results: number;
+  total_pages: number;
+};
