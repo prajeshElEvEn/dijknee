@@ -1,7 +1,12 @@
 export default function Home() {
   return (
     <main className="">
-      <h1>hi</h1>
+      {/* MovieCaraousel */}
+      <div>
+        {/* MovieCar */}
+        {/* MovieCar */}
+        {/* MovieCar */}
+      </div>
     </main>
   );
 }
