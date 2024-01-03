@@ -5,8 +5,12 @@ type Props = {
   movies: Movie[];
   isVertical: boolean;
 };
-const MoviesCarousel = () => {
-  return <div>MoviesCarousel</div>;
+const MoviesCarousel = ({ title, movies, isVertical }: Props) => {
+  return (
+    <div className="z-50">
+      <h2>{title}</h2>
+    </div>
+  );
 };
 
 export default MoviesCarousel;
